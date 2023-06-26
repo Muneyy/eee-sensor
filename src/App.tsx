@@ -17,6 +17,7 @@ function App() {
           height="260"
           src="https://thingspeak.com/channels/2136247/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=100000&title=SGP30+Readings&type=line&xaxis=CO2+levels+%28ppm%29&yaxis=Time"
         ></iframe>
+        <iframe width="450" height="260" src="https://thingspeak.com/channels/2201833/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
       </div>
     </>
   );
