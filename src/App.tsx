@@ -16,7 +16,7 @@ function App() {
         <iframe
           width="450"
           height="260"
-          src={`https://thingspeak.com/channels/2136247/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=${results}&title=SGP30+Readings&type=column&xaxis=CO2+levels+%28ppm%29&yaxis=Time`}
+          src={`https://thingspeak.com/channels/2136247/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=${results}&title=SGP30+Readings&type=line&xaxis=CO2+levels+%28ppm%29&yaxis=Time`}
         ></iframe>
         <iframe 
         width="450" 
