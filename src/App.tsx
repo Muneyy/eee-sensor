@@ -16,13 +16,14 @@ function App() {
         <iframe
           width="450"
           height="260"
-          src={`https://thingspeak.com/channels/2136247/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=${results}&title=SGP30+Readings&type=line&xaxis=CO2+levels+%28ppm%29&yaxis=Time`}
+          src={`https://thingspeak.com/channels/2136247/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=${results}&title=SGP30+Measurements&type=line&xaxis=Time&yaxis=CO2+level+%28ppm%29`}
         ></iframe>
-        <iframe 
-        width="450" 
-        height="260" 
-        src={`https://thingspeak.com/channels/2201833/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=${results}&type=line`}>
-        </iframe>
+<iframe 
+width="450" 
+height="260" 
+src={`https://thingspeak.com/channels/2201833/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=${results}&title=BH1750FVI+Measurements&type=line&xaxis=Time&yaxis=Illuminance+%28lx%29`}>
+
+</iframe>
       </div>
       <div>
         <label htmlFor="results">Choose interval:</label>
@@ -38,7 +39,6 @@ function App() {
           <option value="2880">12 Hours</option>
           <option value="5760">24 Hours</option>
           <option value="11520">48 Hours</option>
-          <option value="23040">72 Hours</option>
         </select>
       </div>
     </>
